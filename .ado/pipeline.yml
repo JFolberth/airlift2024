@@ -17,6 +17,9 @@ parameters:
   default:
     - environmentName: 'dev'
       regionAbrvs: ['eus']
+    - environmentName: 'tst'
+      regionAbrvs: ['eus']
+      deploymentStack: true
 
 
 - name: templateFileName
